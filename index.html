@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXELINLOVE</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .firstbox img {
+        width: 110px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/main.jpg');
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .firstbox {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 10px;
+    }
+
+    .secondbox {
+        margin: 23px auto;
+        width: 36%;
+        background-color: black;
+        border-radius: 41px;
+    }
+
+    .thirdbox {
+        display: inline-block;
+        position: absolute;
+        right: 33px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 5px 9px;
+        background-color: white;
+        color: black;
+        padding: 05px 17px;
+        border: 2px solid black;
+        border-radius: 08px;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .btn:hover {
+        color: rgb(16, 97, 219);
+    }
+
+    .container {
+        width: 40%;
+        margin: 121px 80px;
+        padding: 3px 3px;
+        border-radius: 14px;
+    }
+
+    .form-group input {
+        width: 50%;
+        text-align: center;
+        display: block;
+        padding: 9px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 40px auto;
+        font-size: 20px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 17%;
+        margin: 12px auto;
+        background-color: black;
+        color: white;
+    }
+
+    .container button:hover {
+        color: rgb(105, 101, 101);
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- This for logo -->
+        <div class="firstbox">
+            <img src="img/logo4.png" alt="">
+        </div>
+        <!-- This is for Navbar -->
+        <div class="secondbox">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Staff</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- This is for serch buttons -->
+        <div class="thirdbox">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join This Web Dev Course And brush your skills</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email-ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
